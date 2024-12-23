@@ -1,21 +1,24 @@
 
 import Header from './Header.jsx'
-import Footer from './Footer.jsx'
-import Food from './Food.jsx'
+
 import Card from './Card.jsx'
+
+
+
 function App() {
+  const myName = 'Jascharan Singh';
+  const myFriendName = 'Sarmad Ali';
   return(
     <>
     <Header/>
-    {(() => {
-        const cards = [];
-        for (let i = 0; i < 10; i++) {
-          cards.push(<Card key={i} />);
-        }
-        return cards;
-      })()}
+   
+        
+    <Card name = {myName } isStudyingReact={true}/>
+    <Card name = {myFriendName} isStudyingReact={true} />
+    <Card/>
+    {/* <Button name = "click me!!!"/> */}
     
-    <Footer/>
+    {/* <Footer/> */}
     </>
   )
 }

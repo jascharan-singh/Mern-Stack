@@ -23,3 +23,11 @@
   margin-bottom: 10px;
   margin: 0;
 }
+
+/* custom.css */
+.my-custom-btn {
+  background-color: #f0f8ff; /* Light blue background */
+  font-size: 18px;          /* Larger font size */
+  border-radius: 8px;       /* Rounded corners */
+  padding: 10px 20px;       /* Extra padding */
+}
